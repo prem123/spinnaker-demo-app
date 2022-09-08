@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  premapp1:
+    image: premapp:v1
+    build: .
+    container_name: premc1
+    ports:
+      - "1200:80"
